@@ -37,7 +37,7 @@ function Tabla({ grupos, fecha }) {
       const pngUrl = canvas.toDataURL("image/png");
       const downloadLink = document.createElement("a");
       downloadLink.href = pngUrl;
-      downloadLink.download = "tabla.png";
+      downloadLink.download = {fecha};
       document.body.appendChild(downloadLink);
       downloadLink.click();
       document.body.removeChild(downloadLink);
