@@ -125,7 +125,7 @@ function Tabla({ grupos, fecha }) {
                   <tr style={{ backgroundColor: coloresFila[index] }}>
                     <td className="celda-tacopan">{rutas[index]}</td>
                     <td colSpan={2} className="celda-tacopan">
-                      7:10
+                      7:05
                     </td>
                     <td className="celda-tacopan">
                       {grupos[index].numeros[0] === 0
@@ -137,7 +137,7 @@ function Tabla({ grupos, fecha }) {
                   <tr style={{ backgroundColor: coloresFila[index] }}>
                     <td className="celda-tacopan">{rutas[index]}</td>
                     <td colSpan={2} className="celda-tacopan">
-                      7:30
+                      7:15
                     </td>
                     <td className="celda-tacopan">
                       {grupos[index].numeros[1] === 0
@@ -147,9 +147,9 @@ function Tabla({ grupos, fecha }) {
                     <td></td>
                   </tr>
                   <tr style={{ backgroundColor: coloresFila[index] }}>
-                    <td className="celda-tacopan">Carrizal</td>
+                    <td className="celda-tacopan">{rutas[index]}</td>
                     <td colSpan={2} className="celda-tacopan">
-                      7:20
+                      7:25
                     </td>
                     <td className="celda-tacopan">
                       {grupos[index].numeros[2] === 0
@@ -159,9 +159,9 @@ function Tabla({ grupos, fecha }) {
                     <td></td>
                   </tr>
                   <tr style={{ backgroundColor: coloresFila[index] }}>
-                    <td className="celda-tacopan">Carrizal</td>
+                    <td className="celda-tacopan">{rutas[index]}</td>
                     <td colSpan={2} className="celda-tacopan">
-                      7:40
+                      7:35
                     </td>
                     <td className="celda-tacopan">
                       {grupos[index].numeros[3] === 0
